@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+}
+body{
+   display: flex;
+    height: 100vh;
+    background-image: url(board.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 5px solid white;
+    border-collapse: collapse;
+    opacity: .7;
+}
+td{
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    font: normal 80px 'Chelsea Market', cursive;
+    cursor: pointer;
+    user-select: none;
+    background-color:transparent;
+    color:rgb(0, 255, 0);
+    opacity: 1;
+}
+.game{
+display: flex;
+margin-top: 50px;
+}
+.player{
+    background-color: rgb(0, 255, 0);
+    font-size: 40px;
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    user-select: none;
+}
+span{
+    background-color: rgb(0, 255, 0);
+    font-size: 40px;
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    width: 80px;
+    border-radius: 10px;
+    user-select: none;
+   
+}
